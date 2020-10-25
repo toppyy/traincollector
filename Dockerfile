@@ -7,5 +7,5 @@ COPY collect.py .
 
 RUN pip install -r ./packages.txt
 
-ENTRYPOINT [ "python3", "collect.py" ] 
+ENTRYPOINT [ "python3","-u", "collect.py" ] 
 

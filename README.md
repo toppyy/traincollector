@@ -9,7 +9,7 @@ after cloning the project.
 
 ## Collect train data
 
-Calling `python3 collect.py 10` will store the location of trains into *data.csv* every 10 seconds (the default is 5).
+Calling `python3 collect.py 10` will store the location of trains into *./data/data.csv* every 10 seconds (the default is 5).
 
 
 
