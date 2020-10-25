@@ -11,6 +11,17 @@ after cloning the project.
 
 Calling `python3 collect.py 10` will store the location of trains into *./data/data.csv* every 10 seconds (the default is 5).
 
+## Structure of the data
+
+The output file is a CSV with ";" as a separator.
+
+The columns are the following:
+- Train number
+- Departure date
+- Timestamp
+- Coordinate (lat)
+- Coordinate (lon)
+- Speed (km/h)
 
 
 
