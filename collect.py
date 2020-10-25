@@ -16,7 +16,13 @@ if len(arguments)>1:
 
 url = 'https://rata.digitraffic.fi/api/v1/train-locations/latest/'
 
-filename = 'data.csv'
+
+datapath = './data/'
+
+if os.path.exists(datapath) == False:
+    os.mkdir(datapath)
+
+filename = './data/data.csv'
 
 if os.path.exists(filename):
     append_write = 'a' 
